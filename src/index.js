@@ -3,10 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Header />
     <App />
+    <div>
+      <h1 className="text-3xl font-semibold text-gray-600">Hello World!</h1>
+    </div>
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
